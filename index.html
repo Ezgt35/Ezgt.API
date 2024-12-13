@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezgt API</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: radial-gradient(circle, #000428 0%, #004e92 100%);
+            color: #e0e0e0;
+        }
+        .neon-blue {
+            color: #00ffff;
+            text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
+        }
+        .neon-button {
+            background: linear-gradient(45deg, #00ffff, #0078ff);
+            box-shadow: 0 0 10px #00ffff, 0 0 20px #0078ff;
+        }
+        .neon-button:hover {
+            background: linear-gradient(45deg, #0078ff, #00ffff);
+            box-shadow: 0 0 20px #0078ff, 0 0 30px #00ffff;
+        }
+        .card {
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #00ffff;
+            border-radius: 8px;
+            padding: 16px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-black text-white p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-4xl font-bold neon-blue">Ezgt API</h1>
+            <button class="neon-button text-lg px-4 py-2 rounded transition">👁️‍🗨️</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-10">
+        <!-- Intro Section -->
+        <div class="card mb-10 text-center">
+            <h2 class="text-2xl font-semibold neon-blue">Welcome to Ezgt API</h2>
+            <p class="mt-2 text-gray-300">Created by Ezgt - Explore the future of API technology.</p>
+        </div>
+
+        <!-- Endpoints Section -->
+        <section>
+            <h2 class="text-3xl font-semibold neon-blue mb-6">Download Endpoints</h2>
+            <div class="card">
+                <ul>
+                    <!-- Endpoint Item -->
+                    <li class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-lg neon-blue">GET</span>
+                        <span class="text-gray-300">Tik Tok Download</span>
+                        <a href="https://api.rafaelxputra.my.id/api/downloader/tiktok?url=https://vt.tiktok.com/ZSjnf5voB/" target="_blank" class="neon-button text-white text-sm px-4 py-2 rounded transition">
+                            Try
+                        </a>
+                    </li>
+                    <!-- Endpoint Item -->
+                    <li class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-lg neon-blue">GET</span>
+                        <span class="text-gray-300">YTMP3 Download</span>
+                        <a href="https://api.rafaelxputra.my.id/api/downloader/ytmp3?url=https://youtu.be/AURkGj0jEx4?si=f0USJg7M4c39r1t2" target="_blank" class="neon-button text-white text-sm px-4 py-2 rounded transition">
+                            Try
+                        </a>
+                    </li>
+                    <!-- Endpoint Item -->
+                    <li class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-lg neon-blue">GET</span>
+                        <span class="text-gray-300">YTMP4 Download</span>
+                        <a href="https://api.rafaelxputra.my.id/api/downloader/ytmp4?url=https://youtu.be/AURkGj0jEx4?si=f0USJg7M4c39r1t2" target="_blank" class="neon-button text-white text-sm px-4 py-2 rounded transition">
+                            Try
+                        </a>
+                    </li>
+                    <!-- Endpoint Item -->
+                    <li class="flex justify-between items-center py-4 border-b border-gray-700">
+                        <span class="text-lg neon-blue">GET</span>
+                        <span class="text-gray-300">Spotify Search</span>
+                        <a href="https://api.rafaelxputra.my.id/api/downloader/spotifys?judul=hujan" target="_blank" class="neon-button text-white text-sm px-4 py-2 rounded transition">
+                            Try
+                        </a>
+                    </li>
+                    <!-- Endpoint Item -->
+                    <li class="flex justify-between items-center py-4">
+                        <span class="text-lg neon-blue">GET</span>
+                        <span class="text-gray-300">Spotify Download</span>
+                        <a href="https://api.rafaelxputra.my.id/api/downloader/spotify?url=https://open.spotify.com/track/514rhnksEwHUh6LxXsQ4Y9?si=jzow0lr6Qay3yeMJcrEn8A&context=spotify%3Aplaylist%3A37i9dQZF1DX5Ejj0EkURtP" target="_blank" class="neon-button text-white text-sm px-4 py-2 rounded transition">
+                            Try
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-300 text-center py-6 mt-10">
+        <p>&copy; 2024 Ezgt API. All rights reserved.</p>
+    </footer>
+</body>
+</html>
